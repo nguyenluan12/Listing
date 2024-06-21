@@ -5,6 +5,12 @@
     font-style: normal;
 }
 @font-face {
+    font-family: 'New York Medium';
+    src: url('fonts/NewYorkMediumRegular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: 'New York Small';
     src: url('fonts/NewYorkSmallRegular.otf');
     font-weight: normal;
@@ -100,15 +106,12 @@ body {
     justify-content: center;
     width: 100%;
     font-size: 54px;
-    padding-top: 44px;
+    margin-top: -10px;
 }
 .font-newyork {
     font-family: 'New York Extra Large', sans-serif;
-    max-width: 858px;
-    
+    max-width: 858px;   
     font-weight: 700;
-    /* margin-left: 293px; */
-    
     text-align: center;
 }
 #block4 {
@@ -117,18 +120,16 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: 34px;
-    
-    /* margin-left: 424px; */
-    padding-top: 32px;
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin-top: -40px;
 }
 #block4 p {
     max-width: 592px;
 }
 hr {
-    margin-top: 34px;
+    margin-top: 15px;
     max-width: 640px;
     height: 2px;
     background-color: #000;
@@ -140,7 +141,7 @@ hr {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding-top: 62px;
+    padding-top: 10px;
     font-size: 44px;
 }
 #content {
@@ -152,9 +153,7 @@ hr {
     justify-items: center;
     max-width: 640px;
     margin: auto;
-    padding-top: 28px;
-    
-
+    /* padding-top: 28px; */
 }
 .flex-items {
     display: flex;
@@ -189,7 +188,7 @@ hr {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    gap: 5px;
+    gap: 0.8%;
     color: white;
     list-style-type: none;
     padding-top:18px ;
@@ -229,7 +228,7 @@ hr {
     text-align: center;
     margin: 0 auto;
     padding-top: 26px ;
-    font-family: New York Small;
+    font-family: "New York Small";
     font-size: 16px;
     font-weight: 400;
     line-height: 22.4px;
