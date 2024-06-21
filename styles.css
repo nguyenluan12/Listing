@@ -71,8 +71,17 @@ body {
     align-items: center;
     text-align: center;
     border: 2px solid transparent;
-    
-    
+    cursor: pointer;
+    font-family: 'New York Small';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 170%;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #000000;
 }
 .item:hover {
     border-bottom: 2px solid ;
