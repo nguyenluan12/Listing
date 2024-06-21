@@ -262,6 +262,9 @@ hr {
     display: none;
 }
 @media (max-width : 992px) {
+    #menu {
+        display: none;
+    }
     .none {
         display: none;
     }
