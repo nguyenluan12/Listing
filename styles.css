@@ -161,6 +161,7 @@ hr {
     justify-items: center;
     align-items: center;
     padding-bottom: 64px;
+    cursor: pointer;
 }
 .flex-items img{
     width: 304px;
@@ -344,6 +345,7 @@ hr {
         justify-items: center;
         align-items: center;
         padding-bottom: 42px;
+        cursor: pointer;
     }
     .sf-pro-font {
         height: auto;
